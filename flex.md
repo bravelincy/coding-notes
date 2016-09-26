@@ -1,7 +1,16 @@
 # flex布局
 > flex为css提供了更加灵活的布局方式，中文称之为“伸缩布局”。这种布局发生在父容器与子容器之间，通过它我们可以非常容易地设置父子容器彼此之间复杂的布局关系。
 
-[TOC]
+## 快速导航
+- [display](#display)
+- [flex-direction](#flex-direction)
+- [flex-wrap](#flex-wrap)
+- [justify-content](#justify-content)
+- [align-items](#align-items)
+- [align-self](#align-self)
+- [align-content](#align-content)
+- [order](#order)
+- [flex](#flex)
 
 ## 基本用法
 一个伸缩盒模型有两条方向垂直的轴，默认地，最左边是主轴（main-axis）的起点，最右边是主轴的终点，两点之间的距离是主轴的长度。同理，与之方向垂直的轴就是侧轴（cross-axis）了。
