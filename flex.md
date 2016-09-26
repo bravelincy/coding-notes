@@ -33,17 +33,17 @@
 - flex-start（默认值）：与主轴的起点对齐
 - flex-end：与主轴的终点对齐
 - center：与主轴中心点对齐
-- space-between：第一个与最后一个元素分辨对齐主轴起点和终点，每个元素的距离平均分配
+- space-between：第一个与最后一个元素分别对齐主轴起点和终点，每个元素的距离平均分配
 - space-around：每个元素前后的空间均匀分配
 
 ### align-items
 设置单行内容子元素在侧轴上的对齐方式
 
-- flex-start
-- flex-end
-- center
-- strech
-- baseline
+- flex-start（默认值）：与侧轴的起点对齐
+- flex-end：与侧轴的终点对齐
+- center：与侧轴的中心点对齐
+- strech：将子元素撑满至侧轴的长度
+- baseline：与基线对齐
 
 ### align-self（用于子元素）
 单独设置子元素自身在侧轴上的分布方式
@@ -51,12 +51,12 @@
 ### align-content
 设置多行内容子元素在侧轴上的对齐方式
 
-- flex-start
-- flex-end
-- center
-- space-between
-- space-around
-- strech
+- flex-start（默认值）：与侧轴的起点对齐
+- flex-end：与侧轴的终点对齐
+- center：与侧轴的中心点对齐
+- space-between：第一行与最后一行分别对齐侧轴起点和终点，每行的距离平均分配
+- space-around：每行之间的空间均匀分配
+- strech：将每行元素撑满至侧轴长度
 
 ### order（用于子元素）
 设置子元素排列顺序
