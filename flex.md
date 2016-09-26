@@ -51,7 +51,7 @@
 - flex-start（默认值）：与侧轴的起点对齐
 - flex-end：与侧轴的终点对齐
 - center：与侧轴的中心点对齐
-- strech：将子元素撑满至侧轴的长度
+- stretch：将子元素撑满至侧轴的长度
 - baseline：与基线对齐
 
 ### align-self
@@ -65,7 +65,7 @@
 - center：与侧轴的中心点对齐
 - space-between：第一行与最后一行分别对齐侧轴起点和终点，每行的距离平均分配
 - space-around：每行之间的空间均匀分配
-- strech：将每行元素撑满至侧轴长度
+- stretch：将每行元素撑满至侧轴长度
 
 ### order
 设置子元素排列顺序（用于子元素）
