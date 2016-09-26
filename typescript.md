@@ -1,4 +1,4 @@
-# Typescript   
+# Typescript学习笔记
 > Typescript是微软推出的强类型Javascript语言，它是Javascript的超集，可以编译成纯粹的Javascript运行在任何系统中。
 
 ## 安装
@@ -188,4 +188,7 @@ let strLength: number = (someValue as string).length;
 ```
 
 至于选择哪种是喜好问题，但是当Typescript和JSX一起用时，只有`as`方式可以用。
+
+### 变量声明
+> Typescript作为Javascript的超集，所以自然支持`let`和`const`声明。
 
